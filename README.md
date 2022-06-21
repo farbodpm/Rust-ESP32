@@ -22,6 +22,9 @@ sudo apt-get install -y git \
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
  
+curl -LO https://github.com/esp-rs/rust-build/releases/download/v1.61.0.0/install-rust-toolchain.sh
+chmod a+x install-rust-toolchain.sh
+./install-rust-toolchain.sh
 #install cargo feature that is needed
 
 cargo install cargo-generate
