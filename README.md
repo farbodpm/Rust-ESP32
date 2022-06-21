@@ -31,7 +31,8 @@ cargo install espmonitor
 
 #installing esp libraries
 
-git clone https://github.com/esp-rs/rust-build.git\ncd rust-build
+git clone https://github.com/esp-rs/rust-build.git
+cd rust-build
 ./install-rust-toolchain.sh
 
 #create project template
