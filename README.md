@@ -26,12 +26,12 @@ curl -LO https://github.com/esp-rs/rust-build/releases/download/v1.61.0.0/instal
 chmod a+x install-rust-toolchain.sh
 ./install-rust-toolchain.sh
 #install cargo feature that is needed
-
+'''
 cargo install cargo-generate
 cargo install ldproxy
 cargo install espflash
 cargo install espmonitor
-
+'''
 #installing esp libraries
 
 git clone https://github.com/esp-rs/rust-build.git
